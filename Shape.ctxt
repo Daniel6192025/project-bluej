@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Shape
+comment0.text=\r\n\ Shape\ interface\ is\ the\ template\ used\ to\ define\ geometric\ shapes\r\n\ \r\n\ @author\ Mr.\ Jaffe\r\n\ @version\ 2017-07-14\r\n
+comment1.params=
+comment1.target=double\ getArea()
+comment1.text=\r\n\ Computes\ the\ area\ of\ the\ shape\r\n\ \r\n\ @return\ \ \ \ The\ computed\ area\r\n
+comment2.params=
+comment2.target=double\ getPerimeter()
+comment2.text=\r\n\ Computes\ the\ perimeter\ of\ the\ shape\r\n\ \r\n\ @return\ \ \ \ The\ computed\ perimeter\r\n
+comment3.params=
+comment3.target=java.lang.String\ getColor()
+comment3.text=\r\n\ Gets\ the\ shape's\ color\r\n\ \r\n\ @return\ \ \ \ The\ color\r\n
+numComments=4
