@@ -9,12 +9,10 @@ public class Hendecagon implements Shape
 {
   private String color;
   private double sideLength;
-  private double degs;
   
-  public Hendecagon(double sideLength, String Color, double degs){
+  public Hendecagon(double sideLength, String color){
       this.sideLength = sideLength;
       this.color = color;
-      this.degs = degs;
   }
   
   public String getColor() {
@@ -25,14 +23,11 @@ public class Hendecagon implements Shape
       return this.sideLength;
   }
   
-  public double getDegs(){
-      return this.degs;
-  }
-  
   public double getArea(){
       double squared = Math.pow(this.sideLength, 2);
-      double rads = Math.toRadians(this.degs);
-      return 11/4 * squared * 1.0/Math.tan(rads) * 3.14/11;
+      double degs = 3.490075;
+      double rads = Math.toRadians(degs);
+      return 11/4 * 1/Math.tan(rads) * Math.PI/11 * squared;
   }
   
   public double getPerimeter(){
